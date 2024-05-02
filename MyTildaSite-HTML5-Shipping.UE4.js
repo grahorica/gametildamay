@@ -1155,7 +1155,7 @@ $(document).ready(function() {
 		// ----------------------------------------
 		// MORE JS
 		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/grahorica/gametildamay/f2849c6e026453bd28c822aa063f65633696d2f0/MyTildaSite-HTML5-Shipping.data.js'));
-		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('Utility.js')).then(addScriptToDom);
+		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/grahorica/gametildamay/9e5e82bee40b21b2d79d58928c0f7b498ed93999/Utility.js')).then(addScriptToDom);
 		var dataDownload =
 /* // The following code would download and store the .data file as a Blob, which should be more efficient than loading an ArrayBuffer. However that seems to be buggy, so avoid it for now.
 			fetchOrDownloadAndStore(db, Module.locateFile('MyTildaSite-HTML5-Shipping.data')).then(function(dataBlob) {
